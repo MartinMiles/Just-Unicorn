@@ -1,0 +1,68 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Just Unicorn</PackageName>
+      <Author>Kam Figy</Author>
+      <Version>4.1.3</Version>
+      <Revision />
+      <License />
+      <Comment>This package installs Unicorn 4.1.3 (only DLLs and required configuration) without any 
+solution deployment. It may be useful when you're required to have Unicorn installed 
+at some vanilla instance, for example when performing content migration (i.e. using this 
+solution for SPE Remoting: https://github.com/michaellwest/Spe-Content-Migrator).</Comment>
+      <Attributes />
+      <Readme>This package installs Unicorn 4.1.3 (only DLLs and required configuration) without any 
+solution deployment. It may be useful when you're required to have Unicorn installed 
+at some vanilla instance, for example when performing content migration (i.e. using this 
+solution for SPE Remoting: https://github.com/michaellwest/Spe-Content-Migrator).</Readme>
+      <Publisher>Martin Miles</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.AutoPublish.config</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.config</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.Configs.Default.example</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config.example</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.DataProvider.config</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.Dilithium.config.example</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.PowerShell.config</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.Remote.config.disabled</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.UI.config</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.UI.DeployedContentEditorWarnings.config.disabled</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.UI.IdentityServer.config.disabled</x-item>
+        <x-item>/App_Config/Include/Unicorn/Unicorn.zSharedSecret.config.example</x-item>
+        <x-item>/bin/Configy.dll</x-item>
+        <x-item>/bin/Kamsar.WebConsole.dll</x-item>
+        <x-item>/bin/MicroCHAP.dll</x-item>
+        <x-item>/bin/Rainbow.dll</x-item>
+        <x-item>/bin/Rainbow.Storage.Sc.dll</x-item>
+        <x-item>/bin/Rainbow.Storage.Yaml.dll</x-item>
+        <x-item>/bin/Unicorn.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Just Unicorn</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
